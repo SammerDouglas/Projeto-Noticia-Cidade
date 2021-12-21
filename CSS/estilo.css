@@ -4,7 +4,7 @@
 	padding: 0;
 }
 
-body{
+body {
 	font-family: "trebuchet MS", helvetica, sans-serif;
 	background: #fff url(../imagens/fundo.png) repeat-x;
 }
@@ -12,12 +12,10 @@ body{
 #container {
 	width: 750px;
 	margin: 0 auto;
-	/*border: 1px solid red;*/
 }
 
 #topo {
 	height: 150px;
-	/*border: 1px solid red;*/
 	background: url(../imagens/detalhe-topo.png) no-repeat right top;
 	padding-top: 25px;
 }
@@ -137,6 +135,24 @@ h2 {
 	padding: 5px;
 	margin-top: 5px;
 }
+
+/* formatação lateral */
+ 
+ #lateral ul a {
+ 	font-size: 0.9em;
+ 	padding: 3px;
+ 	display: block;
+ 	line-height: 30px;
+ 	color: #000;
+ 	text-decoration: none;
+ 	border-bottom: 1px solid #f3f3f3;
+ }
+
+ #lateral ul a:hover {
+ 	color: #a1a1a1;
+ 	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+ 	padding-left: 5px;
+ }
 
 /*rodape*/
 
