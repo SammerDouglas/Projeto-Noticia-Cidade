@@ -151,8 +151,29 @@ h2 {
  #lateral ul a:hover {
  	color: #a1a1a1;
  	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
- 	padding-left: 5px;
+ 	padding-left: 20px;
  }
+
+/*formatação de formularios*/
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+
+input.submit {
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
 
 /*rodape*/
 
