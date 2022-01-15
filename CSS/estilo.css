@@ -29,6 +29,15 @@ body {
 
 /*Barra de Navegação*/
 
+a:link, a:visited {
+	color: #10333;
+	padding: 2px;
+}
+
+a:hover {
+	color: #e50040;
+}
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -63,13 +72,14 @@ ul {
 	color: #69001d;
 }
 
-body.home #naveção a#home,
-body.brasil #naveção a#brasil,
-body.internacional #naveção a#internacional,
-body.economia #naveção a#economia,
-body.saude #naveção a#saude,
-body.ciencia #naveção a#ciencia,
-body.fotos #naveção a#fotos {
+body.home #navegação a#home,
+body.brasil #navegação a#brasil,
+body.internacional #navegação a#internacional,
+body.economia #navegação a#economia,
+body.saude #navegação a#saude,
+body.ciencia #navegação a#ciencia,
+body.fotos #navegação a#fotos 
+{
 	color: #fff;
 	background: #de003e;
 	cursor: text;
@@ -93,8 +103,10 @@ body.fotos #naveção a#fotos {
 }
 
 #uma-coluna #primario {
-	width: 270px;
+	width: 100%;
 	margin: 0 0 20px 195px;
+	clear: both;
+	float: right;
 }
 
 /*conteudo segundario*/
@@ -206,6 +218,38 @@ h3 {
 	color: #ff0;
 }
 
+/*formatação da lista de noticia*/
+
+#lista-noticias li {
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 65px;
+}
+
+#lista-noticias li a img {
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a {
+	text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+	font-size: 0.7em;
+	color: #000;
+}
+
+#lista-noticias li:hover {
+	background: #eee;
+	cursor: pointer;
+}
 /*rodape*/
 
 #container-rodape {
